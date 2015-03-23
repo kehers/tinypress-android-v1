@@ -1,0 +1,3 @@
+This is the source of the Tinypress (https://tinypress.co/) android app available at https://play.google.com/store/apps/details?id=co.tinypress.android. You need to [register an app](https://github.com/settings/applications/new) on Github so that you can use the keys to log users in. Don't forget to add your Github app id and secret to ```src\co\tinypress\android\Constants.java```.
+
+For questions or anything, contact me on Twitter via [@kehers](http://twitter.com/kehers) or send me a mail via kehers@gmail.com.

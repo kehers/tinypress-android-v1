@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tinypress</string>
+    <string name="tagline">Create and easily manage your Github page blog.</string>
+    <string name="login">Login with Github</string>
+    
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="advanced_options">Advanced options</string>
+    <string name="post_path">Post path</string>
+    <string name="tags">Tags (Space separated)</string>
+    <string name="categories">Categories (Space separated)</string>
+    <string name="save_draft">Save as draft</string>
+    
+    <string name="action_post">New Post</string>
+    <string name="action_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_acc">Account</string>
+    
+    <string name="username">Username</string>
+    <string name="url">url</string>
+    
+    <string name="about">About</string>
+    <string name="about_content">Tinypress (<a href="https://tinypress.co/">tinypress.co</a>) allows you create and manage your <a href="http://pages.github.com">Github page blog</a>. (Github pages are simple static websites [and blog] for you and your projects). For now, this mobile version is limited to managing (creating, editing and deleting) posts. The web version allows you create a page if you do not have one already.
+   	</string>
+    <string name="header_1">What information is collected and stored?</string>
+    <string name="about_section_1">Tinypress requests access to your Github <b>public repos</b> to authenticate you, check if you have a Github page blog and pull your posts. Your profile details (username, name, page repo) and access to your public repo are stored on your device. Posts are also cached (temporarily stored) on your device during the active session.
+	</string>
+    <string name="header_2">How do I get in touch?</string>
+    <string name="about_section_2">Twitter via <a href="https://twitter.com/tinypressco">@tinypressco</a> or mail via <a href="mailto:love@tinypress.co">love@tinypress.co</a>
+	</string>
+	
+    <string name="network_error">There has been a network error. Try again later.</string>
+    <string name="post_committed">Post committed and should be live on your blog shortly.</string>
+    
+    <string name="no_repo_notification">
+        <![CDATA[
+	    You do not have a Github page yet. Set up one at <a href="https://tinypress.co/">tinypress.co</a>
+	    ]]>
+	</string>
+
+</resources>

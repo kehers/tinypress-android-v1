@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10sp"
+    >
+    
+	<EditText
+        style="@style/input"
+        android:id="@+id/input_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:hint="@string/title"
+        />
+	
+	<EditText
+        style="@style/input"
+        android:id="@+id/input_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:inputType="textMultiLine|textAutoCorrect|textCapSentences"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:scrollbars="vertical"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:hint="@string/content"
+        />
+
+	<CheckBox
+	    android:id="@+id/checkbox_draft"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/save_draft"
+	    android:textColor="@color/black"
+	    android:textSize="16sp"
+	    android:layout_marginBottom="3sp"
+	    />
+
+	<!--TextView
+	    android:id="@+id/advanced_toggle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/advanced_options"
+        android:textColor="@drawable/text_links"
+        android:linksClickable="true"
+        android:clickable="true"			            
+        android:focusableInTouchMode="false"
+        android:onClick="advancedOptionToggle"
+	    android:textSize="16sp"
+	    android:padding="8sp"
+	/-->
+	
+	<LinearLayout
+	    android:id="@+id/advanced_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/blue_light"
+	    android:orientation="vertical"
+	    android:padding="5sp"
+	    android:layout_marginTop="5sp"
+	    android:layout_marginBottom="10sp"
+	    android:visibility="gone"
+	    >
+	    
+		<EditText
+	        style="@style/input"
+	        android:id="@+id/input_post_path"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        android:layout_margin="3sp"
+	        android:hint="@string/post_path"
+	        />
+		
+		<EditText
+	        style="@style/input"
+	        android:id="@+id/input_tags"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        android:layout_margin="3sp"
+	        android:hint="@string/tags"
+	        />
+		
+		<EditText
+	        style="@style/input"
+	        android:id="@+id/input_categories"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        android:layout_margin="3sp"
+	        android:hint="@string/categories"
+	        />
+		
+	</LinearLayout>
+</LinearLayout>
